@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model, Margin & Padding</title>
+    <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            background-color: #f4f4f4;
+            border: 2px solid #777;
+            width: 400px;
+
+            /* padding on all sides */
+            padding: 20px;
+
+            /* padding per side */
+            padding-top: 10px;
+            padding-right: 5px;
+            padding-bottom: 10px;
+            padding-left: 5px;
+
+            /* padding shorthand v1 top-right-bottom-left */
+            padding: 10px 20px 10px 20px;
+
+            /* padding shorthand v2 top/bottom - right/left */
+            padding: 10px 20px;
+
+            /* Margin on all sides */
+            margin: 20px;
+
+            /* margin per side */
+            margin-top: 10px;
+            margin-right: 20px;
+            margin-bottom: 10px;
+            margin-left: 20px;
+
+            /* margin shorthand v1 top-right-bottom-left */
+            margin: 10px 20px 10px 20px;
+
+            /* margin shorthand v2 top/bottom - left/right */
+            margin: 30px 5px;
+        }
+    </style>
+    <link rel="stylesheet" href="css/style.css" >
+</head>
+<body>
+    <div class="box">
+        <h3>Box One</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus maiores nesciunt ratione vitae maxime alias reiciendis atque temporibus aliquid et accusantium iure quos deleniti suscipit, veritatis doloremque saepe eaque error.</p>
+    </div>
+    <div class="box">
+        <h3>Box Two</h3>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Possimus maiores nesciunt ratione vitae maxime alias reiciendis atque temporibus aliquid et accusantium iure quos deleniti suscipit, veritatis doloremque saepe eaque error.</p>
+    </div>
+</body>
+</html>

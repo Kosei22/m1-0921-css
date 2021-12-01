@@ -1,0 +1,8 @@
+h1 {
+    border: 3px dotted #333;
+    color: yellow;
+}
+
+.box{
+    border: 5px solid magenta;
+}
